@@ -1,0 +1,16 @@
+PODS:
+  - JKSwiftRefresh (0.1.0)
+
+DEPENDENCIES:
+  - JKSwiftRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  JKSwiftRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKSwiftRefresh: d65fbae4f37978a02a26b2d23db78070f35c6c5b
+
+PODFILE CHECKSUM: f2b8e00e4043f8cab5aabae1df5372a0914a263b
+
+COCOAPODS: 1.10.0

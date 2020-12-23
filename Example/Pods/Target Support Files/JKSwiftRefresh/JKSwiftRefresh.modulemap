@@ -1,0 +1,6 @@
+framework module JKSwiftRefresh {
+  umbrella header "JKSwiftRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}
