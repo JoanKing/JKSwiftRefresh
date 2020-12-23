@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		60F0CC3BE561CA5792E3C85B /* Pods_JKSwiftRefresh_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181CB2A5C3FC847580423389 /* Pods_JKSwiftRefresh_Example.framework */; };
+		843CDA12259350A6002CA21B /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA11259350A6002CA21B /* ViewController5.swift */; };
+		843CDA16259351EF002CA21B /* JKDIYHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA15259351EF002CA21B /* JKDIYHeader.swift */; };
+		843CDA1A25935C80002CA21B /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA1925935C7F002CA21B /* ViewController6.swift */; };
+		843CDA1E25935F85002CA21B /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA1D25935F85002CA21B /* ViewController7.swift */; };
+		843CDA2225936013002CA21B /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA2125936013002CA21B /* ViewController8.swift */; };
+		843CDA2625936411002CA21B /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA2525936411002CA21B /* ViewController9.swift */; };
+		8466B90D259311EE001C4EED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B90B259311EE001C4EED /* BaseViewController.swift */; };
+		8466B90E259311EE001C4EED /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B90C259311EE001C4EED /* BaseNavigationViewController.swift */; };
+		8466B91725931244001C4EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B91625931244001C4EED /* ViewController.swift */; };
+		8466B93F25931F14001C4EED /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466B93E25931F14001C4EED /* refresh.png */; };
+		8466B943259324D1001C4EED /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B942259324D1001C4EED /* ViewController1.swift */; };
+		8466B947259325A0001C4EED /* BaseSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B946259325A0001C4EED /* BaseSingleViewController.swift */; };
+		8466B94B25932CC3001C4EED /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B94A25932CC3001C4EED /* ViewController2.swift */; };
+		8466B94F25932EA2001C4EED /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B94E25932EA2001C4EED /* ViewController3.swift */; };
+		8466B954259337C2001C4EED /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B953259337C2001C4EED /* ViewController4.swift */; };
 		B2AE7CD4D98E9C867BB5DEF1 /* Pods_JKSwiftRefresh_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF304497D8A47732EBA098E /* Pods_JKSwiftRefresh_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,17 +50,32 @@
 		607FACD01AFB9204008FA782 /* JKSwiftRefresh_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKSwiftRefresh_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* JKSwiftRefresh_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSwiftRefresh_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7222078FD10DA6EBB3FB532C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7A17C400E1919F666076E000 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7222078FD10DA6EBB3FB532C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A17C400E1919F666076E000 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		843CDA11259350A6002CA21B /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		843CDA15259351EF002CA21B /* JKDIYHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDIYHeader.swift; sourceTree = "<group>"; };
+		843CDA1925935C7F002CA21B /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		843CDA1D25935F85002CA21B /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		843CDA2125936013002CA21B /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		843CDA2525936411002CA21B /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
+		8466B8F6259311C3001C4EED /* JKSwiftRefresh_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKSwiftRefresh_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		8466B90B259311EE001C4EED /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8466B90C259311EE001C4EED /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		8466B91625931244001C4EED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8466B93E25931F14001C4EED /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		8466B942259324D1001C4EED /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		8466B946259325A0001C4EED /* BaseSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSingleViewController.swift; sourceTree = "<group>"; };
+		8466B94A25932CC3001C4EED /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		8466B94E25932EA2001C4EED /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		8466B953259337C2001C4EED /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		8B11123556B9A09317B45EEA /* Pods-JKSwiftRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSwiftRefresh_Example.debug.xcconfig"; path = "Target Support Files/Pods-JKSwiftRefresh_Example/Pods-JKSwiftRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FC7EA7E51AB62E62AF190692 /* JKSwiftRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JKSwiftRefresh.podspec; path = ../JKSwiftRefresh.podspec; sourceTree = "<group>"; };
+		FC7EA7E51AB62E62AF190692 /* JKSwiftRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKSwiftRefresh.podspec; path = ../JKSwiftRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				8466B91125931221001C4EED /* Home */,
+				8466B90A259311ED001C4EED /* Base */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -107,7 +137,9 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8466B93E25931F14001C4EED /* refresh.png */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
+				8466B8F6259311C3001C4EED /* JKSwiftRefresh_Example-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +171,66 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8466B90A259311ED001C4EED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8466B90B259311EE001C4EED /* BaseViewController.swift */,
+				8466B946259325A0001C4EED /* BaseSingleViewController.swift */,
+				8466B90C259311EE001C4EED /* BaseNavigationViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8466B91125931221001C4EED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8466B91425931229001C4EED /* Controller */,
+				8466B91325931228001C4EED /* Model */,
+				8466B91525931229001C4EED /* View */,
+				8466B91225931228001C4EED /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8466B91225931228001C4EED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8466B91325931228001C4EED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8466B91425931229001C4EED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8466B91625931244001C4EED /* ViewController.swift */,
+				8466B942259324D1001C4EED /* ViewController1.swift */,
+				8466B94A25932CC3001C4EED /* ViewController2.swift */,
+				8466B94E25932EA2001C4EED /* ViewController3.swift */,
+				8466B953259337C2001C4EED /* ViewController4.swift */,
+				843CDA11259350A6002CA21B /* ViewController5.swift */,
+				843CDA1925935C7F002CA21B /* ViewController6.swift */,
+				843CDA1D25935F85002CA21B /* ViewController7.swift */,
+				843CDA2125936013002CA21B /* ViewController8.swift */,
+				843CDA2525936411002CA21B /* ViewController9.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8466B91525931229001C4EED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843CDA15259351EF002CA21B /* JKDIYHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		936A528CC3F3AD21E452A747 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +239,6 @@
 				515CA44FDB7943C8EBBDDBC6 /* Pods-JKSwiftRefresh_Tests.debug.xcconfig */,
 				403282D68AB0E0494816DB22 /* Pods-JKSwiftRefresh_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,7 +304,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1210;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -227,6 +318,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				8466B93F25931F14001C4EED /* refresh.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -269,11 +362,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JKSwiftRefresh_Example/Pods-JKSwiftRefresh_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JKSwiftRefresh/JKSwiftRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/JKSwiftExtension/JKSwiftExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/KingfisherWebP/KingfisherWebP.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKSwiftRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKSwiftExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KingfisherWebP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,8 +434,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				8466B94B25932CC3001C4EED /* ViewController2.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				843CDA2625936411002CA21B /* ViewController9.swift in Sources */,
+				8466B94F25932EA2001C4EED /* ViewController3.swift in Sources */,
+				843CDA2225936013002CA21B /* ViewController8.swift in Sources */,
+				8466B943259324D1001C4EED /* ViewController1.swift in Sources */,
+				843CDA16259351EF002CA21B /* JKDIYHeader.swift in Sources */,
+				843CDA12259350A6002CA21B /* ViewController5.swift in Sources */,
+				8466B954259337C2001C4EED /* ViewController4.swift in Sources */,
+				8466B90D259311EE001C4EED /* BaseViewController.swift in Sources */,
+				8466B91725931244001C4EED /* ViewController.swift in Sources */,
+				843CDA1A25935C80002CA21B /* ViewController6.swift in Sources */,
+				8466B90E259311EE001C4EED /* BaseNavigationViewController.swift in Sources */,
+				843CDA1E25935F85002CA21B /* ViewController7.swift in Sources */,
+				8466B947259325A0001C4EED /* BaseSingleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,11 +594,14 @@
 			baseConfigurationReference = 8B11123556B9A09317B45EEA /* Pods-JKSwiftRefresh_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JKSwiftRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JKSwiftRefresh/JKSwiftRefresh_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +612,13 @@
 			baseConfigurationReference = 059A3019435210619DDC7B0D /* Pods-JKSwiftRefresh_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JKSwiftRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JKSwiftRefresh/JKSwiftRefresh_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

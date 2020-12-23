@@ -4,7 +4,8 @@ platform :ios, '9.0'
 
 target 'JKSwiftRefresh_Example' do
   pod 'JKSwiftRefresh', :path => '../'
-
+  pod 'JKSwiftExtension'
+  pod 'KingfisherWebP'
   target 'JKSwiftRefresh_Tests' do
     inherit! :search_paths
 

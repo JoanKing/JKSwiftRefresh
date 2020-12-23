@@ -1,8 +1,8 @@
 {
   "name": "JKSwiftRefresh",
   "version": "0.1.0",
-  "summary": "A short description of JKSwiftRefresh.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Swift版本的Refresh",
+  "description": "这是一个对NJRefresh的封装，主要是为了在Swift里面方便使用",
   "homepage": "https://github.com/JoanKing/JKSwiftRefresh",
   "license": {
     "type": "MIT",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JKSwiftRefresh/Classes/**/*"
+  "source_files": "JKSwiftRefresh/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+
+    ]
+  }
 }

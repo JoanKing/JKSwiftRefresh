@@ -9,18 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'JKSwiftRefresh'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JKSwiftRefresh.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.summary          = 'Swift版本的Refresh'
+  s.description      = '这是一个对NJRefresh的封装，主要是为了在Swift里面方便使用'
   s.homepage         = 'https://github.com/JoanKing/JKSwiftRefresh'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -38,5 +28,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MJRefresh'
 end

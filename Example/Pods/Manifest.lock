@@ -1,16 +1,52 @@
 PODS:
-  - JKSwiftRefresh (0.1.0)
+  - JKSwiftExtension (0.7.9):
+    - Kingfisher
+    - SnapKit
+  - JKSwiftRefresh (0.1.0):
+    - MJRefresh
+  - Kingfisher (4.10.1)
+  - KingfisherWebP (0.4.2):
+    - Kingfisher (~> 4.0)
+    - libwebp (>= 0.5.0)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - MJRefresh (3.5.0)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
+  - JKSwiftExtension
   - JKSwiftRefresh (from `../`)
+  - KingfisherWebP
+
+SPEC REPOS:
+  trunk:
+    - JKSwiftExtension
+    - Kingfisher
+    - KingfisherWebP
+    - libwebp
+    - MJRefresh
+    - SnapKit
 
 EXTERNAL SOURCES:
   JKSwiftRefresh:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKSwiftRefresh: d65fbae4f37978a02a26b2d23db78070f35c6c5b
+  JKSwiftExtension: 931dd312194d29d524b1c4b41a252f0746aefcb8
+  JKSwiftRefresh: a4a3455f7a4373be8524156e82d14e0b66e5db26
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  KingfisherWebP: 53632f3da248ccabd4999d775903d6ae0aaa7768
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: f2b8e00e4043f8cab5aabae1df5372a0914a263b
+PODFILE CHECKSUM: 3ffaf4fba228f6062c106d78645e388fc5d6c529
 
 COCOAPODS: 1.10.0

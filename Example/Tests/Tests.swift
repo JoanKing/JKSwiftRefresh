@@ -1,5 +1,4 @@
 import XCTest
-import JKSwiftRefresh
 
 class Tests: XCTestCase {
     
