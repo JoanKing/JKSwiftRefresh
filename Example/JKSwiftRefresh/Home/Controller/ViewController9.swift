@@ -21,6 +21,11 @@ class ViewController9: BaseSingleViewController {
         // 自定义自动回弹的上拉加载组件的刷新图标
         // 同样地。对于自动回弹上拉组件不同状态下的图片数组也是可以修改设置的。如果要设置图标，我们可以改用 MJRefreshBackGifFooter 即可。
         
+        footer.setTitle("上拉上拉上拉", for: .idle)
+        footer.setTitle("加载加载加载", for: .refreshing)
+        footer.setTitle("赶紧放开我吧", for: .pulling)
+        footer.setTitle("没有没有更多数据了", for: .noMoreData)
+        
         //上拉过程时的图片集合(根据下拉距离自动改变)
         var idleImages = [UIImage]()
         for i in 1...4 {
@@ -35,20 +40,18 @@ class ViewController9: BaseSingleViewController {
         }
         footer.setImages(pullingImages, for: .pulling)
          
-        //刷新状态下的图片集合(定时自动改变)
+        // 刷新状态下的图片集合(定时自动改变)
         var refreshingImages = [UIImage]()
         for i in 1...2 {
             refreshingImages.append(UIImage(named:"refreshing\(i)")!)
         }
         footer.setImages(refreshingImages, for: .refreshing)
         
-        //随机生成一些初始化数据
+        // 随机生成一些初始化数据
         refreshItemData(items: 20)
 
-        //上刷新相关设置
+        // 上刷新相关设置
         footer.setRefreshingTarget(self, refreshingAction: #selector(footerLoad))
-        //是否自动加载（默认为true，即表格滑到底部就自动加载）
-        // footer.isAutomaticallyRefresh = false
         self.tableView.mj_footer = footer
     }
     

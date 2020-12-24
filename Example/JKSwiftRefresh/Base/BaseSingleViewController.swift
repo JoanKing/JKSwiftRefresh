@@ -62,6 +62,7 @@ class BaseSingleViewController: UIViewController {
             dataArray.append("条目\(Int(arc4random() % 100))")
         }
     }
+    
 }
 
 extension BaseSingleViewController: UITableViewDelegate, UITableViewDataSource {

@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController5: BaseSingleViewController {
+class JKRefreshHeaderViewController: BaseSingleViewController {
 
     // 顶部刷新
-    let header = JKDIYHeader()
+    let header = JKRefreshHeader()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "MJRefreshHeader"
         /*
          1、这个原来是 MJRefresh 提供的一个样例，我这里改成使用 Swift 实现。
          2、下拉组件视图中放置4个控件：上方一个 UIImageView，下方从左到右是 UISwitch、UILabel、UIActivityIndicatorView。
@@ -23,7 +24,7 @@ class ViewController5: BaseSingleViewController {
          5、UIActivityIndicatorView 活动指示器只有在“正在刷新”状态下会显示出来。
          */
         
-        //下拉刷新相关设置
+        // 下拉刷新相关设置
         header.setRefreshingTarget(self, refreshingAction: #selector(headerRefresh))
         self.tableView.mj_header = header
     }
