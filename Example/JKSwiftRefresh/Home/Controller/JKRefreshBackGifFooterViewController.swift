@@ -38,7 +38,6 @@ class JKRefreshBackGifFooterViewController: BaseSingleViewController {
             //结束刷新
             weakSelf.tableView.mj_footer?.endRefreshing()
         }
-
     }
     
 

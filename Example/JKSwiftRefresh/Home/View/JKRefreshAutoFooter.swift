@@ -34,6 +34,9 @@ class JKRefreshAutoFooter: MJRefreshAutoFooter {
         // loading
         self.loading =  UIActivityIndicatorView(activityIndicatorStyle: .gray)
         self.addSubview(self.loading)
+        
+        // 是否自动加载（默认为true，即表格滑到底部就自动加载）
+        // isAutomaticallyRefresh = false
     }
      
     // 在这里设置子控件的位置和尺寸

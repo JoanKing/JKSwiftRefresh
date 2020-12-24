@@ -15,12 +15,14 @@
 		60F0CC3BE561CA5792E3C85B /* Pods_JKSwiftRefresh_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181CB2A5C3FC847580423389 /* Pods_JKSwiftRefresh_Example.framework */; };
 		84179B112594610500DF52A8 /* JKRefreshBackGifFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84179B102594610500DF52A8 /* JKRefreshBackGifFooterViewController.swift */; };
 		84179B15259465C600DF52A8 /* JKRefreshGifHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84179B14259465C600DF52A8 /* JKRefreshGifHeader.swift */; };
+		84179B1F25946A5D00DF52A8 /* JKRefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84179B1E25946A5D00DF52A8 /* JKRefreshNormalHeader.swift */; };
+		84179B2525946CE400DF52A8 /* JKRefreshAutoGifFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84179B2425946CE400DF52A8 /* JKRefreshAutoGifFooter.swift */; };
+		84179B2F2594789500DF52A8 /* JKHeaderAndFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84179B2E2594789500DF52A8 /* JKHeaderAndFooterViewController.swift */; };
 		843CDA12259350A6002CA21B /* JKRefreshHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA11259350A6002CA21B /* JKRefreshHeaderViewController.swift */; };
 		843CDA16259351EF002CA21B /* JKRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA15259351EF002CA21B /* JKRefreshHeader.swift */; };
 		843CDA1A25935C80002CA21B /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA1925935C7F002CA21B /* ViewController6.swift */; };
 		843CDA1E25935F85002CA21B /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA1D25935F85002CA21B /* ViewController7.swift */; };
-		843CDA2225936013002CA21B /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA2125936013002CA21B /* ViewController8.swift */; };
-		843CDA2625936411002CA21B /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA2525936411002CA21B /* ViewController9.swift */; };
+		843CDA2225936013002CA21B /* JKRefreshAutoGifFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CDA2125936013002CA21B /* JKRefreshAutoGifFooterViewController.swift */; };
 		8466B90D259311EE001C4EED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B90B259311EE001C4EED /* BaseViewController.swift */; };
 		8466B90E259311EE001C4EED /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B90C259311EE001C4EED /* BaseNavigationViewController.swift */; };
 		8466B91725931244001C4EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B91625931244001C4EED /* ViewController.swift */; };
@@ -28,7 +30,7 @@
 		8466B943259324D1001C4EED /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B942259324D1001C4EED /* ViewController1.swift */; };
 		8466B947259325A0001C4EED /* BaseSingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B946259325A0001C4EED /* BaseSingleViewController.swift */; };
 		8466B94B25932CC3001C4EED /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B94A25932CC3001C4EED /* ViewController2.swift */; };
-		8466B94F25932EA2001C4EED /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B94E25932EA2001C4EED /* ViewController3.swift */; };
+		8466B94F25932EA2001C4EED /* JKRefreshNormalHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B94E25932EA2001C4EED /* JKRefreshNormalHeaderViewController.swift */; };
 		8466B954259337C2001C4EED /* JKRefreshGifHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466B953259337C2001C4EED /* JKRefreshGifHeaderViewController.swift */; };
 		847C73AC25942E13009F4AE0 /* JKRefreshAutoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C73AB25942E13009F4AE0 /* JKRefreshAutoFooter.swift */; };
 		847C73B42594308C009F4AE0 /* JKRefreshBackGifFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847C73B32594308C009F4AE0 /* JKRefreshBackGifFooter.swift */; };
@@ -67,12 +69,14 @@
 		7A17C400E1919F666076E000 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		84179B102594610500DF52A8 /* JKRefreshBackGifFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshBackGifFooterViewController.swift; sourceTree = "<group>"; };
 		84179B14259465C600DF52A8 /* JKRefreshGifHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshGifHeader.swift; sourceTree = "<group>"; };
+		84179B1E25946A5D00DF52A8 /* JKRefreshNormalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshNormalHeader.swift; sourceTree = "<group>"; };
+		84179B2425946CE400DF52A8 /* JKRefreshAutoGifFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshAutoGifFooter.swift; sourceTree = "<group>"; };
+		84179B2E2594789500DF52A8 /* JKHeaderAndFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKHeaderAndFooterViewController.swift; sourceTree = "<group>"; };
 		843CDA11259350A6002CA21B /* JKRefreshHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshHeaderViewController.swift; sourceTree = "<group>"; };
 		843CDA15259351EF002CA21B /* JKRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshHeader.swift; sourceTree = "<group>"; };
 		843CDA1925935C7F002CA21B /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 		843CDA1D25935F85002CA21B /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
-		843CDA2125936013002CA21B /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
-		843CDA2525936411002CA21B /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
+		843CDA2125936013002CA21B /* JKRefreshAutoGifFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshAutoGifFooterViewController.swift; sourceTree = "<group>"; };
 		8466B8F6259311C3001C4EED /* JKSwiftRefresh_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKSwiftRefresh_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		8466B90B259311EE001C4EED /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		8466B90C259311EE001C4EED /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +85,7 @@
 		8466B942259324D1001C4EED /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		8466B946259325A0001C4EED /* BaseSingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSingleViewController.swift; sourceTree = "<group>"; };
 		8466B94A25932CC3001C4EED /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		8466B94E25932EA2001C4EED /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		8466B94E25932EA2001C4EED /* JKRefreshNormalHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshNormalHeaderViewController.swift; sourceTree = "<group>"; };
 		8466B953259337C2001C4EED /* JKRefreshGifHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshGifHeaderViewController.swift; sourceTree = "<group>"; };
 		847C73AB25942E13009F4AE0 /* JKRefreshAutoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshAutoFooter.swift; sourceTree = "<group>"; };
 		847C73B32594308C009F4AE0 /* JKRefreshBackGifFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKRefreshBackGifFooter.swift; sourceTree = "<group>"; };
@@ -226,16 +230,16 @@
 				8466B91625931244001C4EED /* ViewController.swift */,
 				8466B942259324D1001C4EED /* ViewController1.swift */,
 				8466B94A25932CC3001C4EED /* ViewController2.swift */,
-				8466B94E25932EA2001C4EED /* ViewController3.swift */,
+				8466B94E25932EA2001C4EED /* JKRefreshNormalHeaderViewController.swift */,
 				8466B953259337C2001C4EED /* JKRefreshGifHeaderViewController.swift */,
 				843CDA11259350A6002CA21B /* JKRefreshHeaderViewController.swift */,
 				843CDA1925935C7F002CA21B /* ViewController6.swift */,
 				843CDA1D25935F85002CA21B /* ViewController7.swift */,
-				843CDA2125936013002CA21B /* ViewController8.swift */,
-				843CDA2525936411002CA21B /* ViewController9.swift */,
+				843CDA2125936013002CA21B /* JKRefreshAutoGifFooterViewController.swift */,
 				847C73B725943220009F4AE0 /* JKRefreshAutoFooterViewController.swift */,
 				847C73BB259434F6009F4AE0 /* JKRefreshBackFooterViewController.swift */,
 				84179B102594610500DF52A8 /* JKRefreshBackGifFooterViewController.swift */,
+				84179B2E2594789500DF52A8 /* JKHeaderAndFooterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -244,7 +248,9 @@
 			isa = PBXGroup;
 			children = (
 				843CDA15259351EF002CA21B /* JKRefreshHeader.swift */,
+				84179B1E25946A5D00DF52A8 /* JKRefreshNormalHeader.swift */,
 				84179B14259465C600DF52A8 /* JKRefreshGifHeader.swift */,
+				84179B2425946CE400DF52A8 /* JKRefreshAutoGifFooter.swift */,
 				847C73AB25942E13009F4AE0 /* JKRefreshAutoFooter.swift */,
 				847C73BF259435BA009F4AE0 /* JKRefreshBackFooter.swift */,
 				847C73B32594308C009F4AE0 /* JKRefreshBackGifFooter.swift */,
@@ -325,10 +331,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = XXHJUP7YMQ;
 						LastSwiftMigration = 1210;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = XXHJUP7YMQ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -456,14 +465,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				847C73C0259435BA009F4AE0 /* JKRefreshBackFooter.swift in Sources */,
+				84179B2525946CE400DF52A8 /* JKRefreshAutoGifFooter.swift in Sources */,
 				8466B94B25932CC3001C4EED /* ViewController2.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				843CDA2625936411002CA21B /* ViewController9.swift in Sources */,
 				847C73B825943220009F4AE0 /* JKRefreshAutoFooterViewController.swift in Sources */,
-				8466B94F25932EA2001C4EED /* ViewController3.swift in Sources */,
-				843CDA2225936013002CA21B /* ViewController8.swift in Sources */,
+				8466B94F25932EA2001C4EED /* JKRefreshNormalHeaderViewController.swift in Sources */,
+				843CDA2225936013002CA21B /* JKRefreshAutoGifFooterViewController.swift in Sources */,
+				84179B2F2594789500DF52A8 /* JKHeaderAndFooterViewController.swift in Sources */,
 				8466B943259324D1001C4EED /* ViewController1.swift in Sources */,
 				847C73AC25942E13009F4AE0 /* JKRefreshAutoFooter.swift in Sources */,
+				84179B1F25946A5D00DF52A8 /* JKRefreshNormalHeader.swift in Sources */,
 				843CDA16259351EF002CA21B /* JKRefreshHeader.swift in Sources */,
 				843CDA12259350A6002CA21B /* JKRefreshHeaderViewController.swift in Sources */,
 				8466B954259337C2001C4EED /* JKRefreshGifHeaderViewController.swift in Sources */,
@@ -623,11 +634,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXHJUP7YMQ;
 				INFOPLIST_FILE = JKSwiftRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapod.JKSwiftRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "JKSwiftRefresh/JKSwiftRefresh_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -641,11 +656,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXHJUP7YMQ;
 				INFOPLIST_FILE = JKSwiftRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapod.JKSwiftRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "JKSwiftRefresh/JKSwiftRefresh_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -656,6 +675,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 515CA44FDB7943C8EBBDDBC6 /* Pods-JKSwiftRefresh_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = XXHJUP7YMQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -678,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 403282D68AB0E0494816DB22 /* Pods-JKSwiftRefresh_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = XXHJUP7YMQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

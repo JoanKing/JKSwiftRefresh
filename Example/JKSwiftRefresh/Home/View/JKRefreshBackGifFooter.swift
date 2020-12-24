@@ -12,6 +12,13 @@ class JKRefreshBackGifFooter: MJRefreshBackGifFooter {
  
     override func prepare() {
         super.prepare()
+        /**
+         1，默认样式
+         上面的样例使用的就是默认样式。会显示提示文字，刷新时左侧还有环形进度条。
+         2，自定义刷新图标
+         同下拉组件里的刷新图标一样。上拉加载里的刷新图标我们也可以修改。通过设置一个图片数组，MJRefresh 就会自动播放这几张图片，形成动画。
+         （注意：如果要设置图标，footer 就要使用 MJRefreshAutoGifFooter，而不是 MJRefreshNormalFooter。）
+         */
         
         setTitle("上拉上拉上拉", for: .idle)
         setTitle("加载加载加载", for: .refreshing)

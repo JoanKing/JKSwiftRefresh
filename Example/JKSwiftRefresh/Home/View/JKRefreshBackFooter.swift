@@ -38,7 +38,6 @@ class JKRefreshBackFooter: MJRefreshBackFooter {
         self.s =  UISwitch()
         self.addSubview(self.s)
          
-         
         // loading
         self.loading =  UIActivityIndicatorView(activityIndicatorStyle: .gray)
         self.addSubview(self.loading)

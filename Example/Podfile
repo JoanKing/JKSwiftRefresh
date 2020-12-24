@@ -9,6 +9,5 @@ target 'JKSwiftRefresh_Example' do
   target 'JKSwiftRefresh_Tests' do
     inherit! :search_paths
 
-    
   end
 end
