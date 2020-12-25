@@ -31,8 +31,8 @@ class JKRefreshGifHeader: MJRefreshGifHeader {
         // 下拉过程时的图片集合(根据下拉距离自动改变)
         var idleImages = [UIImage]()
         for i in 1...4 {
-            // idleImages.append(UIImage(named:"idle\(i)")!)
-            idleImages.append(UIImage(named:"pulling\(i)")!)
+            idleImages.append(UIImage(named:"idle\(i)")!)
+            // idleImages.append(UIImage(named:"pulling\(i)")!)
         }
         setImages(idleImages, for: .idle) //idle1，idle2，idle3...idle10
          
@@ -58,6 +58,7 @@ class JKRefreshGifHeader: MJRefreshGifHeader {
         // 隐藏状态
         // stateLabel!.isHidden = true
         
-        // self.mj_h = MJRefreshHeaderHeight
+        // 提示：因为我的图片较大才 增加的高度
+        self.mj_h = MJRefreshHeaderHeight + 20
     }
 }

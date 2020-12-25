@@ -16,7 +16,7 @@ class ViewController2: BaseSingleViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "MJRefresh的基本使用"
+        title = "头部刷新写在 block里面的基本使用"
  
         // 下拉刷新代码写在 Block 里面
         clilck2()

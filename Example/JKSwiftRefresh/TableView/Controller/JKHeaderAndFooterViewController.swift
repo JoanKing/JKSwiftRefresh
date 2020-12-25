@@ -13,7 +13,7 @@ class JKHeaderAndFooterViewController: BaseSingleViewController {
     // 顶部刷新
     let header = JKRefreshGifHeader()
     // 底部刷新
-    let footer = JKRefreshBackGifFooter()
+    let footer = JKRefreshAutoGifFooter()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,7 +49,8 @@ class JKHeaderAndFooterViewController: BaseSingleViewController {
             // 没有更多的数据
             // weakSelf.tableView.mj_footer?.endRefreshingWithNoMoreData()
             // 有更多的数据
-            // self.tableView.mj_footer?.resetNoMoreData()
+            weakSelf.tableView.mj_footer?.resetNoMoreData()
+            weakSelf.tableView.mj_footer?.isHidden = false
         }
     }
     
@@ -70,6 +71,10 @@ class JKHeaderAndFooterViewController: BaseSingleViewController {
             weakSelf.tableView.reloadData()
             //结束刷新
             weakSelf.tableView.mj_footer?.endRefreshing()
+            
+            if weakSelf.dataArray.count >= 60 {
+                weakSelf.tableView.mj_footer?.endRefreshingWithNoMoreData()
+            }
         }
 
     }

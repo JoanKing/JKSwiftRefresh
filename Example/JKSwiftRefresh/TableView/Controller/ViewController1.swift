@@ -15,7 +15,7 @@ class ViewController1: BaseSingleViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "MJRefresh的基本使用"
+        title = "头部刷新的基本使用"
         // 下拉刷新代码不写在 Block 里面
         clilck1()
     }
@@ -30,10 +30,10 @@ class ViewController1: BaseSingleViewController {
     // 下拉刷新
     @objc func headerRefresh() {
         print("下拉刷新代码不写在 Block 里面：--------下拉刷新.....")
-        dataArray = []
         JKAsyncs.asyncDelay(2) {
         } _: {[weak self] in
             guard let weakSelf = self else { return }
+            weakSelf.dataArray = []
             //重现生成数据
             weakSelf.refreshItemData()
             //重现加载表格数据
