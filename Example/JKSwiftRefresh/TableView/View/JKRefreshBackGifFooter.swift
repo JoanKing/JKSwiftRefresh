@@ -12,6 +12,7 @@ class JKRefreshBackGifFooter: MJRefreshBackGifFooter {
  
     override func prepare() {
         super.prepare()
+        // 提示：在使用 gif 动画的时候，注意图片的大小，太大要调整刷新 header 和 footer 的高度
         /**
          1，默认样式
          上面的样例使用的就是默认样式。会显示提示文字，刷新时左侧还有环形进度条。
