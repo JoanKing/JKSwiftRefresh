@@ -40,6 +40,8 @@
 		84870DFB2595962200349285 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84870DFA2595962200349285 /* TestCollectionViewController.swift */; };
 		84870DFF2595C38600349285 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84870DFE2595C38600349285 /* TestCollectionViewCell.swift */; };
 		84870E0D2595CBFD00349285 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84870E0C2595CBFD00349285 /* WebViewController.swift */; };
+		84E96DFF25C80E2700D76D5C /* FBRefreshGifHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E96DFE25C80E2700D76D5C /* FBRefreshGifHeader.swift */; };
+		84E96E0525C8115900D76D5C /* FBRefreshGifHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E96E0425C8115900D76D5C /* FBRefreshGifHeaderViewController.swift */; };
 		B2AE7CD4D98E9C867BB5DEF1 /* Pods_JKSwiftRefresh_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF304497D8A47732EBA098E /* Pods_JKSwiftRefresh_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +100,8 @@
 		84870DFA2595962200349285 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
 		84870DFE2595C38600349285 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 		84870E0C2595CBFD00349285 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		84E96DFE25C80E2700D76D5C /* FBRefreshGifHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBRefreshGifHeader.swift; sourceTree = "<group>"; };
+		84E96E0425C8115900D76D5C /* FBRefreshGifHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBRefreshGifHeaderViewController.swift; sourceTree = "<group>"; };
 		8B11123556B9A09317B45EEA /* Pods-JKSwiftRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSwiftRefresh_Example.debug.xcconfig"; path = "Target Support Files/Pods-JKSwiftRefresh_Example/Pods-JKSwiftRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FC7EA7E51AB62E62AF190692 /* JKSwiftRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKSwiftRefresh.podspec; path = ../JKSwiftRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -148,6 +152,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				84870DED259590FA00349285 /* ViewController.swift */,
+				84E96E0425C8115900D76D5C /* FBRefreshGifHeaderViewController.swift */,
+				84E96DFE25C80E2700D76D5C /* FBRefreshGifHeader.swift */,
 				84870E072595CBDB00349285 /* WebView */,
 				84870DF12595910C00349285 /* CollectionView */,
 				84870DBE259590A100349285 /* TableView */,
@@ -553,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E96DFF25C80E2700D76D5C /* FBRefreshGifHeader.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				84870E0D2595CBFD00349285 /* WebViewController.swift in Sources */,
 				84870DDB259590BF00349285 /* JKRefreshGifHeader.swift in Sources */,
@@ -564,6 +571,7 @@
 				84870DE3259590BF00349285 /* ViewController1.swift in Sources */,
 				8466B90E259311EE001C4EED /* BaseNavigationViewController.swift in Sources */,
 				84870DE0259590BF00349285 /* JKRefreshGifHeaderViewController.swift in Sources */,
+				84E96E0525C8115900D76D5C /* FBRefreshGifHeaderViewController.swift in Sources */,
 				84870DDE259590BF00349285 /* ViewController2.swift in Sources */,
 				84870DD9259590BF00349285 /* JKRefreshHeader.swift in Sources */,
 				84870DD8259590BF00349285 /* JKRefreshBackGifFooter.swift in Sources */,
